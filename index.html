@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-9">
     <title>Wild & Wacky Vegetables</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   </head>
 
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="bg-light rounded p-3">
           <h1>Some Favorites</h1>
-            <ul>
-                <li><a href="#">Celery Root</a>
-                <li><a href="#">Spaghetti Squash</a>
-                <li><a href="#">Killer Mushrooms</a>
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#">Celery Root</a>
+                <li class="nav-item"><a class="nav-link" href="#">Spaghetti Squash</a>
+                <li class="nav-item"><a class="nav-link" href="#">Killer Mushrooms</a>
             </ul>
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-primary">Search Recipes</button>
+            </form>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
+          <div class="alert alert-danger" role="alert">
+            <b>Uh oh!</b> Have you had your daily dose of veggies today??
+          </div>
           <h1>Wild & Wacky Vegetables</h1>
-
+          <blockquote class="blockquote">
+            <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias ad, accusamus tenetur nostrum sunt quasi inventore animi sequi nesciunt praesentium aut non rem harum expedita, asperiores odit minus, sit commodi.</p>
+            <footer class="blockquote-footer">Tom Robins</footer>
+          </blockquote>
           <h1>Some diseases</h1>
           <table class="table table-striped table-bordered">
             <thead>
@@ -42,7 +54,17 @@
               </tr>
             </tbody>
           </table>
-          
+          <div class="row">
+            <div class="col-md-3">
+              <img class="img-thumbnail" src="file:///C:/Users/TEMP/Downloads/800px-Beets-Bundle.jpg" alt="Beets">
+            </div>
+            <div class="col-md-3">
+              <img class="img-thumbnail" src="file:///C:/Users/TEMP/Downloads/CarrotDiversityLg.jpg" alt="Carrots">
+            </div>
+            <div class="col-md-3">
+              <img class="img-thumbnail" src="file:///C:/Users/TEMP/Downloads/220px-Green_Asparagus_New_York_11_May_2006.jpg" alt="Green Asparagus">
+            </div>
+          </div>
           <h1>Really informative info</h1>
           <p>Kale courgette salsify mustard broccoli seakale wakame potato fava bean tigernut leek celery spinach avocado cabbage celtuce rutabaga kohlrabi. Parsnip pea soko groundnut bitterleaf spring onion. Grape dulse rutabaga lentil gram kakadu plum water spinach cabbage lotus root.
           </p>
